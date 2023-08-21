@@ -6,24 +6,27 @@
     
     <title>Dolomity - RakouskoItalské hory</title>
 
+    <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/index.css">
-    <link rel="stylesheet" href="reset.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     
     <header>
         <section class="navigation">
             <a href="">Domů</a>
-            <a href="">O horách</a>
-            <img src="img/logo.png" alt="">
             <a href="">Objev</a>
+            <img src="img/logo.png" alt="">
+            <a href="">O pohoří</a>
             <a href="">Horská služba</a>
         </section>
         <section class="mobileNavigation"></section>
         <section class="mainText">
-            <h1>Dolomity</h1>
-            <p>Nejkrásnější hory Rakouska a Itálie!</p>
-            <a href="https://youtu.be/GhmB4VWrwMw?si=J4xoClz6482e3i8I">
+            <h1 data-aos="zoom-in" data-aos-duration="1000">Dolomity</h1>
+            <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">Nejkrásnější hory Rakouska a Itálie!</p>
+            <a href="https://youtu.be/GhmB4VWrwMw?si=J4xoClz6482e3i8I" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1000">
                 <img src="icons/playVideo.svg" alt="">
             </a>
         </section>
@@ -31,32 +34,32 @@
 
     <section class="mostVisitedPlaces">
         <section class="title">
-            <h2></h2>
-            <p></p>
+            <h2 data-aos="zoom-in" data-aos-duration="1000">Nejnavštěvovanější lokality</h2>
+            <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">Lokality uvedené níže patří mezi naše nejnavštěvovanější. Je jich celé spektrum. Stačí si vybrat.</p>
         </section>
         <section class="thePlaces">
-            <section class="first">
-                <h3></h3>
-                <p></p>
+            <section class="first" data-aos="flip-left" data-aos-duration="2000">
+                <h3>Passo Giau</h3>
+                <p>Itálie/Rakousko</p>
             </section>
-            <section class="second">
-                <h3></h3>
-                <p></p>
+            <section class="second" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="400">
+                <h3>Cortina d'Ampezzo</h3>
+                <p>Itálie</p>
             </section>
-            <section class="third">
-                <h3></h3>
-                <p></p>
+            <section class="third" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="800">
+                <h3>Pian Falzarego</h3>
+                <p>Itálie</p>
             </section>
-            <a href=""></a>
         </section>
+        <a href="" data-aos="zoom-in" data-aos-duration="2000">Zobrazit další</a>
     </section>
 
     <section class="emptySection"></section>
 
     <footer>
         <section class="copyright">
-            <img src="" alt="">
-            <p></p>
+            <img src="img/logo.png" alt="">
+            <p>©2023 JM</p>
         </section>
         <section class="navigation">
             <a href="">Domů</a>
@@ -66,5 +69,9 @@
         </section>
     </footer>
 
+
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
